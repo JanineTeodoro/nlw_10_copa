@@ -39,7 +39,7 @@ body * {
 #app {
   width: fit-content;
   margin: auto;
-  padding-top: ;
+  padding-top: 24px;
   display: 52px;
   flex-direction: column;
   align-items: center;
