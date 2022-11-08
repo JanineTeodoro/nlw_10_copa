@@ -20,8 +20,29 @@ body.blue {
 body.green {
   --card-title-border-color: #047c3f;
   --card-color-primary: #047c3f;
-  --card-bg-color: #1a1f1b;
+  --card-bg-color: #1f1a1e;
   --bg: url(./assets/bg-green.svg);
+}
+
+body.pink {
+  --card-title-border-color: #ff69b4;
+  --card-color-primary: #ff69b4;
+  --card-bg-color: #1f1a1f;
+  --bg: url(./assets/bg-pink.svg);
+}
+
+body.white {
+  --card-title-border-color: #ffffff;
+  --card-color-primary: #ffffff;
+  --card-bg-color: #1f1f1f;
+  --bg: url(./assets/bg-white.svg);
+}
+
+body.red {
+  --card-title-border-color: #ff0000;
+  --card-color-primary: #ff0000;
+  --card-bg-color: #1c1414;
+  --bg: url(./assets/bg-red.svg);
 }
 
 ul {
@@ -140,7 +161,9 @@ header {
 
 @media (min-width: 700px) {
   #cards {
+    /* se eu quiser deixar somente duas caixas de jogos na página, habilitar isso
     max-width: 670px;
+  */
     flex-direction: row;
     flex-wrap: wrap;
   }
